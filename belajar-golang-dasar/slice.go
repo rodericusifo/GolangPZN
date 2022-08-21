@@ -32,7 +32,7 @@ func main() {
 	var slice2 = months[11:]
 	fmt.Println(slice2)
 
-	var slice3 = append(slice2, "Eko")
+	var slice3 = append(slice2, "Ifo")
 	fmt.Println(slice3)
 	slice3[1] = "Bukan Desember"
 	fmt.Println(slice3)
@@ -42,7 +42,7 @@ func main() {
 
 	newSlice := make([]string, 2, 5)
 
-	newSlice[0] = "Eko"
+	newSlice[0] = "Ifo"
 	newSlice[1] = "Kurniawan"
 
 	fmt.Println(newSlice)
