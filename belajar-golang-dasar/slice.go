@@ -43,7 +43,7 @@ func main() {
 	newSlice := make([]string, 2, 5)
 
 	newSlice[0] = "Ifo"
-	newSlice[1] = "Kurniawan"
+	newSlice[1] = "Budi"
 
 	fmt.Println(newSlice)
 	fmt.Println(len(newSlice))
