@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/rodericusifo/GolangPZN/go-say-hello"
+	go_say_hello "github.com/rodericusifo/GolangPZN/go-say-hello/v2"
 )
 
 func main() {
-	fmt.Println(go_say_hello.SayHello())
+	fmt.Println(go_say_hello.SayHello("Ifo"))
 }
